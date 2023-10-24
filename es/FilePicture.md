@@ -1,77 +1,67 @@
+Primer encabezado | Segundo encabezado
+--- | ---
+Celda de contenido | Celda de contenido
+Celda de contenido | Celda de contenido
 
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+Primer encabezado | Segundo encabezado
+--- | ---
+Celda de contenido | Celda de contenido
+Celda de contenido | Celda de contenido
 
 ![Citadel](https://vignette.wikia.nocookie.net/masseffect/images/d/d7/MassEffect2Citadel.jpg/revision/latest?cb=20100721191415)
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-|:------------- |:---------------:| -------------:|
-| col 3 is      | some wordy text |     **$1600** |
-| col 2 is      | centered        |         $12   |
-| zebra stripes | are neat        |        ~~$1~~ |
+Alineado a la izquierda | Centro alineado | Alineado a la derecha
+:-- | :-: | --:
+la columna 3 es | algún texto prolijo | **$1600**
+la columna 2 es | centrado | $12
+rayas de cebra | son limpios | ~~$1~~
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+Dillinger es un editor HTML5 Markdown con tecnología AngularJS, habilitado para la nube, listo para dispositivos móviles y con almacenamiento fuera de línea.
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+- Escribe algo de Markdown a la izquierda
+- Ver HTML a la derecha
+- magia
 
-# true
+# verdadero
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+- Importe un archivo HTML y observe cómo se convierte mágicamente a Markdown
+- Arrastra y suelta imágenes (requiere que tu cuenta de Dropbox esté vinculada)
 
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
+Tú también puedes:
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
+- Importe y guarde archivos desde GitHub, Dropbox, Google Drive y One Drive
+- Arrastre y suelte archivos HTML y de rebajas en Dillinger
+- Exportar documentos como Markdown, HTML y PDF
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+Markdown es un lenguaje de marcado ligero basado en las convenciones de formato que la gente utiliza naturalmente en el correo electrónico. Como escribe [John Gruber] en el [sitio de Markdown][df1]
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+> El objetivo primordial del diseño de la sintaxis de formato de Markdown es hacerla lo más legible posible. La idea es que un documento con formato Markdown se pueda publicar tal cual, como texto sin formato, sin que parezca que ha sido marcado con etiquetas o instrucciones de formato.
 
-# влоадлвоало
+¡Este texto que ves aquí *en realidad* está escrito en Markdown! Para tener una idea de la sintaxis de Markdown, escriba algo de texto en la ventana izquierda y observe los resultados en la derecha.
 
-### false
+### FALSO
 
-Dillinger uses a number of open source projects to work properly:
+Dillinger utiliza varios proyectos de código abierto para funcionar correctamente:
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
-* [jQuery] - duh
+- [AngularJS] - ¡HTML mejorado para aplicaciones web!
+- [Ace Editor] - impresionante editor de texto basado en web
+- [markdown-it] - Analizador de Markdown bien hecho. Rápido y fácil de ampliar.
+- [Twitter Bootstrap]: excelente plantilla de interfaz de usuario para aplicaciones web modernas
+- [node.js] - E/S con eventos para el backend
+- [Express] - marco rápido de aplicación de red node.js [@tjholowaychuk]
+- [Gulp] - el sistema de compilación de streaming
+- [Breakdance](https://breakdance.github.io/breakdance/) - Conversor de HTML a Markdown
+- [jQuery] - claro
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+Y, por supuesto, Dillinger es de código abierto con un [repositorio público][eneldo] en GitHub.
 
-### Installation
+### Instalación
+
 ![Ilos](https://lh3.googleusercontent.com/proxy/DDV8a7sLIWurhJtW8Ego9bq-JlwpfFFoR0tkLJQKKYXEXoWHB6ZUP5jGKD2VcYt3z1QVsgcn6L3GoU1ns8m9fvi3U51GzddA70ZUMHgzHvjl4-i7YOJY9cShBPrfjUhMQhxaJ97WFBp612XmjMXVGypfGkiBarN4PWxhiHkiYYNW7HGbtTpOcyt9GQ4Q23C2noxLTWFXZMcQZhRpQA_qzu2n6_H6CPViBnhSHpEl4JZAPaGCSJqgZg)
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+Dillinger requiere [Node.js](https://nodejs.org/) v4+ para ejecutarse.
 
-Install the dependencies and devDependencies and start the server.
+Instale las dependencias y devDependencies e inicie el servidor.
 
 ```sh
 $ cd dillinger
@@ -79,77 +69,86 @@ $ npm install -d
 $ node app
 ```
 
-For production environments...
+Para entornos de producción...
 
 ```sh
 $ npm install --production
 $ NODE_ENV=production node app
 ```
 
-### Plugins
+### Complementos
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+Dillinger actualmente está ampliado con los siguientes complementos. Las instrucciones sobre cómo usarlos en su propia aplicación están vinculadas a continuación.
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+Enchufar | LÉAME
+--- | ---
+buzón | [complementos/dropbox/README.md][PlDb]
+GitHub | [plugins/github/README.md][PlGh]
+Google Drive | [plugins/googledrive/README.md][PlGd]
+OneDrive | [complementos/onedrive/README.md][PlOd]
+Medio | [plugins/medium/README.md][PlMe]
+Google analitico | [plugins/googleanalytics/README.md][PlGa]
 
+### Desarrollo
 
-### Development
+¿Quieres contribuir? ¡Excelente!
 
-Want to contribute? Great!
+Dillinger utiliza Gulp + Webpack para un desarrollo rápido. ¡Haga un cambio en su archivo y vea instantáneamente sus actualizaciones!
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
+Abra su Terminal favorita y ejecute estos comandos.
 
-Open your favorite Terminal and run these commands.
+Primera pestaña:
 
-First Tab:
 ```sh
 $ node app
 ```
 
-Second Tab:
+Segunda pestaña:
+
 ```sh
 $ gulp watch
 ```
 
-(optional) Third:
+(opcional) Tercero:
+
 ```sh
 $ karma test
 ```
-#### Building for source
-For production release:
+
+#### Construyendo para fuente
+
+Para lanzamiento de producción:
+
 ```sh
 $ gulp build --prod
 ```
-Generating pre-built zip archives for distribution:
+
+Generando archivos zip prediseñados para su distribución:
+
 ```sh
 $ gulp build dist --prod
 ```
-### Docker
-Dillinger is very easy to install and deploy in a Docker container.
 
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
+### Estibador
+
+Dillinger es muy fácil de instalar e implementar en un contenedor Docker.
+
+De forma predeterminada, Docker expondrá el puerto 8080, así que cámbielo dentro del Dockerfile si es necesario. Cuando esté listo, simplemente use Dockerfile para crear la imagen.
 
 ```sh
 cd dillinger
 docker build -t joemccann/dillinger:${package.json.version} .
 ```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
 
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+Esto creará la imagen de Dillinger e incorporará las dependencias necesarias. Asegúrese de cambiar `${package.json.version}` por la versión real de Dillinger.
+
+Una vez hecho esto, ejecute la imagen de Docker y asigne el puerto a lo que desee en su host. En este ejemplo, simplemente asignamos el puerto 8000 del host al puerto 8080 de Docker (o cualquier puerto expuesto en el Dockerfile):
 
 ```sh
 docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
 ```
 
-Verify the deployment by navigating to your server address in your preferred browser.
+Verifique la implementación navegando a la dirección de su servidor en su navegador preferido.
 
 ```sh
 127.0.0.1:8000
@@ -157,7 +156,6 @@ Verify the deployment by navigating to your server address in your preferred bro
 
 #### Kubernetes + Google Cloud
 
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
-
+Ver [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
 
 ### Todos
